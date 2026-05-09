@@ -1,0 +1,76 @@
+[
+  {
+    "query": "最近团队里总是有人搭便车，活都是几个人干，其他人躲着走。能用《模型思维》里的模型帮我分析一下这个情况吗？",
+    "should_trigger": true
+  },
+  {
+    "query": "我在考虑从大厂出来做新产品，但发现用户在 Notion、Obsidian 这些工具上已经积累了太多内容和习惯，即使我的产品更好用他们也未必迁移。这种情况有没有结构性的解释？我该怎么找到切入点？",
+    "should_trigger": true
+  },
+  {
+    "query": "我们公司推新工具，最开始只有几个人用，到 40% 左右使用率时突然就全员用起来了。这个拐点到底怎么解释？有什么模型可以帮我理解这种突然爆发的现象，怎么在其他部门复制？",
+    "should_trigger": true
+  },
+  {
+    "query": "scott page 的多模型思维里有没有适合分析市场竞争的模型？我打算做个 AI 笔记产品",
+    "should_trigger": true
+  },
+  {
+    "query": "两个大平台在打价格战持续半年了，我是新入场的小公司。他们在想什么？我的最优策略是跟着降价还是找别的出路？想从策略互动的角度系统分析一下这个局面",
+    "should_trigger": true
+  },
+  {
+    "query": "我们团队产出严重不均，少数人扛了大部分活，其他人产出很低。这个局面是怎么形成的？不是简单的管理问题，我想从结构层面理解为什么差异会这么大、还会自我强化",
+    "should_trigger": true
+  },
+  {
+    "query": "公司内部知识流动特别慢，技术部知道的东西产品部完全不懂，信息总传不到正确的人那里。想系统分析一下这个信息流通的瓶颈到底在哪里",
+    "should_trigger": true
+  },
+  {
+    "query": "我们产品改一个模块就坏了另一个不相关的模块，修了这个 bug 引出那个 bug，感觉牵一发动全身。怎么系统性理解这个问题？有没有办法判断整个系统的复杂程度？",
+    "should_trigger": true
+  },
+  {
+    "query": "大型开源项目到最后往往只有两三个人在主力维护，其他人偶尔提个 PR 就消失了。为什么会有这个现象？有什么机制设计可以避免维护者 burnout？",
+    "should_trigger": true
+  },
+  {
+    "query": "我们供应链的库存总是大起大落，忽高忽低，供应商那边也不稳定。客户天天抱怨交期不准。我想用系统性的方法分析这个波动的根源，不只是头疼医头",
+    "should_trigger": true
+  },
+  {
+    "query": "I've got a team where 20% of the people do 80% of the work. Can you use the models from Scott Page's Model Thinking to analyze this?",
+    "should_trigger": true
+  },
+  {
+    "query": "I'm worried users won't switch to my product even if it's objectively better. They've spent years building content and workflows inside Notion and Obsidian. Is there a structural explanation for why people stick with inferior tools, and how do I break through?",
+    "should_trigger": true
+  },
+  {
+    "query": "Our internal tool adoption went from 40% to 95% usage in just two weeks after months of stagnation below 30%. We're trying to understand what caused this sudden shift and whether we can engineer similar adoption patterns for other tools we roll out.",
+    "should_trigger": true
+  },
+  {
+    "query": "Two big platforms have been in a price war for months. I'm running a smaller company considering this space. How should I analyze their strategic positions and figure out what my best move is?",
+    "should_trigger": true
+  },
+  {
+    "query": "J'aimerais utiliser le modèle des seuils pour analyser pourquoi notre nouvel outil interne a du mal à être adopté",
+    "should_trigger": true
+  },
+  { "query": "帮我做一个小红书文案，要突出产品的三大卖点，语气活泼一点", "should_trigger": false },
+  { "query": "我想用 SWOT 分析一下我们的竞品，帮列个框架", "should_trigger": false },
+  { "query": "用思维导图的方式帮我梳理一下这个项目的关键节点", "should_trigger": false },
+  { "query": "你的思维模型是什么？你怎么做决策的？", "should_trigger": false },
+  { "query": "能不能用第一性原理帮我分析这个商业问题", "should_trigger": false },
+  { "query": "查理·芒格的思维模型有哪些？帮我列一下", "should_trigger": false },
+  { "query": "帮我把这段录音转成文字，然后做个摘要", "should_trigger": false },
+  { "query": "我想学模型思维，有什么书推荐吗？", "should_trigger": false },
+  { "query": "帮我用数学建模分析一下这个销售数据", "should_trigger": false },
+  { "query": "用金字塔原理帮我组织一下这个汇报的结构", "should_trigger": false },
+  { "query": "Write a python script to scrape this website for me", "should_trigger": false },
+  { "query": "Explain the difference between REST and GraphQL APIs", "should_trigger": false },
+  { "query": "Fais-moi un résumé de ce document PDF", "should_trigger": false },
+  { "query": "How do I set up CI/CD for my project?", "should_trigger": false }
+]

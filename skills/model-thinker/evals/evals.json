@@ -1,0 +1,70 @@
+{
+  "skill_name": "model-thinker",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "我们团队有 10 个人，每次开会总是一半人在说话，另一半人从不发言。分配任务时，总是那几个人在干活，其他人能躲就躲。年底考核发现，80% 的成果来自 20% 的人。我想知道这是为什么，怎么改变？",
+      "expected_output": "Model analysis recommending collective action model or power-law distribution, analyzing the free-rider problem and suggesting solutions",
+      "files": [],
+      "expectations": [
+        "Recommends at least one relevant model from the book",
+        "Explains why the model fits the problem",
+        "Applies the model framework to analyze the situation step by step",
+        "Includes the model's limitations",
+        "Provides actionable suggestions based on the analysis"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "我在考虑要不要从大厂出来做一个新的 AI 笔记产品。现在笔记市场已经很拥挤了，印象笔记、Notion、Obsidian、飞书文档都已经有很强的用户基础。我担心即使产品做得更好，也很难让用户迁移过来。",
+      "expected_output": "Model analysis recommending path dependence model, potentially with threshold model or rugged-landscape as supplementary perspective",
+      "files": [],
+      "expectations": [
+        "Recommends at least one relevant model from the book",
+        "Explains why the model fits the problem",
+        "Applies the model framework to analyze the situation",
+        "Discusses switching costs and lock-in effects",
+        "Provides strategic analysis based on the model"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "公司内部最近在推一个跨部门协作平台，但推广效果很差。最开始只有技术部在用，后来市场部也加入了，但其他部门始终不动。我注意到当某个部门的使用率达到 40% 左右时，就会突然加速推广到整个部门。为什么会出现这个现象？怎么利用这个规律？",
+      "expected_output": "Model analysis recommending threshold models with feedbacks, analyzing tipping points and cascade effects",
+      "files": [],
+      "expectations": [
+        "Recommends threshold model as the primary model",
+        "Explains the tipping point concept (40% threshold observation)",
+        "Applies the model to analyze the adoption dynamics",
+        "Provides strategies to accelerate cross-department adoption",
+        "Mentions model limitations"
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "I'm the product manager for a B2B SaaS team. There are 8 engineers but only 2 of them consistently ship quality code on time. The rest either procrastinate or produce buggy work that needs rework. Our velocity metrics show that the top 2 engineers account for about 75% of the value delivered. What's going on here, and how should I think about this problem structurally?",
+      "expected_output": "Model analysis in English, recommending power-law distribution or collective action model, with actionable management suggestions",
+      "files": [],
+      "expectations": [
+        "Output is entirely in English",
+        "Recommends at least one relevant model from the book",
+        "Explains the model's core concept in plain language",
+        "Applies the model framework step by step",
+        "Provides actionable suggestions based on the analysis"
+      ]
+    },
+    {
+      "id": 5,
+      "prompt": "I'm considering building a new AI-powered note-taking app. The market already has Notion, Obsidian, Roam Research, and Logseq — all with strong communities and network effects. My concern is that even if my product is objectively better, users won't switch because they've already invested so much content and habit into existing tools.",
+      "expected_output": "Model analysis in English, recommending path dependence model, analyzing switching costs and lock-in effects",
+      "files": [],
+      "expectations": [
+        "Output is entirely in English",
+        "Recommends path dependence as the primary model",
+        "Analyzes switching costs and lock-in effects",
+        "Discusses potential strategies to overcome path dependence",
+        "Mentions model limitations"
+      ]
+    }
+  ]
+}
