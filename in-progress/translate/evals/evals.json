@@ -1,0 +1,65 @@
+{
+  "skill_name": "translate",
+  "evals": [
+    {
+      "id": 1,
+      "eval_name": "informative-doc",
+      "prompt": "帮我把下面这段产品文档翻译成中文，我要放进中文版帮助中心：\n\nThe Settings API allows developers to customize the behavior of their applications. When a user changes a preference, the system saves the value and broadcasts an event to all subscribed components. We conducted extensive testing to ensure that the migration of legacy settings does not break existing integrations. Developers can retrieve the current configuration by calling the getSettings method.",
+      "expected_output": "中文产品文档翻译，信息准确，无翻译腔，技术术语一致",
+      "files": [],
+      "expectations": [
+        "译文为中文输出（包含中文字符）",
+        "关键信息完整：包含偏好设置、订阅组件、迁移、现有集成",
+        "术语约定：Settings API 与 getSettings 保留源语未翻译",
+        "翻译腔回避：'当'字未机械照搬（不出现'当用户更改'）",
+        "轻动词翻译腔回避：不出现'进行了'（如'进行了大量测试'）",
+        "方式状语翻译腔回避：不出现'通过调用……的方式'"
+      ]
+    },
+    {
+      "id": 2,
+      "eval_name": "marketing-copy",
+      "prompt": "帮我把这个网页的推广文案翻译成中文，语气要有感染力、能打动读者：\n\nTired of juggling five apps just to run your business? Meet FlowDesk — the all-in-one workspace that puts your customers, projects, and team on one screen. Thousands of founders have already made the switch. When you sign up today, you'll get your first month free. Join the movement and grow your business 3x faster.",
+      "expected_output": "中文营销文案，有感染力，符合中文营销语感，号召力强",
+      "files": [],
+      "expectations": [
+        "译文为中文输出（包含中文字符）",
+        "关键卖点完整：包含一站式、一屏、首月免费、3倍",
+        "品牌名 FlowDesk 保留源语",
+        "翻译腔回避：'当'字未机械照搬（不出现'当你'）",
+        "设问句式保留感染力（译文含疑问语气）",
+        "呼吁行动保留（译文含祈使/号召语气）"
+      ]
+    },
+    {
+      "id": 3,
+      "eval_name": "literary-prose",
+      "prompt": "帮我翻译这段散文，我特别喜欢作者的笔触，希望译文也能保留那种味道：\n\nWhen I was six, my grandmother told me that the sea keeps the memory of every sailor who has ever crossed it. I have thought about this often, especially on nights when the city hums beneath my window and I cannot sleep. Her words were so simple that they seemed effortless, and yet they have followed me for thirty years, patient as a tide.",
+      "expected_output": "中文散文翻译，保留文学味、节奏与情感，避免口语化或翻译腔",
+      "files": [],
+      "expectations": [
+        "译文为中文输出（包含中文字符）",
+        "核心意象保留：海、水手、潮汐",
+        "so…that 未机械照搬'如此……以至于'",
+        "when 从句未机械照搬'当我六岁'",
+        "未用'被'字被动翻译腔",
+        "结尾明喻保留（'patient as a tide'译出比喻意象，未平铺直叙）"
+      ]
+    },
+    {
+      "id": 4,
+      "eval_name": "terminology-fidelity",
+      "prompt": "帮我把这段产品更新日志翻译成中文：\n\nGlideTrack 3.0 ships with a redesigned dashboard. We've cut query latency by 40% and doubled the upload speed. The export tool now supports the OData protocol. Existing users keep their current settings during the transition.",
+      "expected_output": "中文更新日志，信息准确、专名处理符合术语约定、无翻译腔",
+      "files": [],
+      "expectations": [
+        "译文为中文输出（包含中文字符）",
+        "专名保留源语：GlideTrack、OData 未翻译",
+        "事实保真：'doubled the upload speed'为'上传速度翻倍'，未漂移成'增长一倍'",
+        "事实保真：40% 数值未漂移",
+        "翻译腔回避：'during the transition'未机械照搬'在过渡期间'",
+        "翻译腔回避：不出现'当'字机械照搬"
+      ]
+    }
+  ]
+}
