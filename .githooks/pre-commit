@@ -11,7 +11,7 @@ if [ -z "$staged_files" ]; then
     exit 0
 fi
 
-echo "$staged_files" | xargs npx prettier $PRETTIER_ARGS
+echo "$staged_files" | xargs npx --yes prettier $PRETTIER_ARGS
 
 # re-stage in case formatter changed anything
 echo "$staged_files" | xargs git add

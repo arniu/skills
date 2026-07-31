@@ -3,36 +3,29 @@
 ## Project structure
 
 ```
-skills/          public — linked in README
+skills/          public — promoted
 in-progress/     private — drafts
-deprecated/      private — dead
+research/        private — study material
 docs/            reference docs
-  skills-guide.md  comprehensive skill authoring guide
+  skills-guide.md      authoring conventions
+  skills-philosophy.md writing methodology
 ```
 
-Skills are in `in-progress/` while drafting, then moved to `skills/` when ready.
+Skills graduate from `in-progress/` to `skills/` when their evals pass.
+
+`README.md` lists exactly the `skills/` set, each entry linked. Every skill change — add, rename, move, remove, or description edit — updates `README.md` in the same change. Install commands live only in `README.md`.
 
 ## Skill format
 
-Each skill is a directory with a `SKILL.md` containing:
+A skill is a directory with a `SKILL.md`: `name` + `description` frontmatter (the only trigger mechanism), body under 500 lines. See `docs/skills-guide.md` for the full conventions — authoring, evals, tuning.
 
-- **YAML frontmatter**: `name`, `description` (the only trigger mechanism)
-- **Body**: instructions under 500 lines
-- Optional: `evals/`, `references/`, `scripts/`, `assets/`
+## Testing
 
-See `docs/skills-guide.md` for full conventions.
-
-## Commands
-
-```bash
-# Install a skill from this repo
-npx skills add arniu/zkills --skill <name> -y
-
-# Test a skill (via /skill-creator eval framework)
-# See docs/skills-guide.md for creating and running evals
-```
-
-## Development workflow
-
-- Test outputs go to `.claude/workspaces/`
+- Run the `/skill-creator` eval framework — an installed skill, not part of this repo
+- Test workspace root is `.agents/workspaces/<skill-name>/` — overrides skill-creator's sibling `<skill-name>-workspace/`; keep its `iteration-N/` layout inside
 - Use `isolation: "worktree"` for subagent testing to keep the working tree clean
+
+## Git
+
+- One logical change per commit
+- Conventional commits: `type(scope): lowercase summary` — `feat`, `fix`, `docs`, `chore`, `refactor`, `test`

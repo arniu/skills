@@ -1,9 +1,7 @@
 # local
 .agents/
+.claude
 skills-lock.json
-.claude/workspaces/
-.claude/*.local.json
-.claude/*.lock
 
 # deps
 node_modules/

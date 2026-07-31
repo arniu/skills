@@ -1,9 +1,9 @@
-# zkills
+# README
 
 ## Installation
 
 ```bash
-npx skills add arniu/zkills --skill <skill-name> -y
+npx skills add arniu/skills --skill <skill-name> -y
 ```
 
 ## Available Skills

@@ -138,5 +138,5 @@ After skill stabilizes, run trigger optimization:
 
 ## References
 
-- Skill system details: `/.claude/skills/skill-creator/SKILL.md`
+- Skill system details: `~/.claude/skills/skill-creator/SKILL.md` (installed skill, not part of this repo)
 - Skill directory conventions: `CLAUDE.md` in project root
