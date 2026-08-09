@@ -1,26 +1,24 @@
 ---
 name: model-thinker
 description: >-
-  Selects best model(s) from Scott Page's The Model Thinker and applies analysis.
-  Covers: distributions, networks, diffusion, game theory, path dependence, threshold/tipping points, collective action, system dynamics.
-  Invoke when user mentions /model-thinker, "Model Thinking", "Scott Page", or asks for structured problem analysis.
+  Analyzes a problem with the best-fitting model(s) from Scott Page's The Model Thinker.
+  Problem domains: free-rider & collective action, power-law inequality, network & information flow,
+  diffusion & adoption tipping points, path dependence & lock-in, strategic games, systems dynamics.
+  Invoke on /model-thinker, "Model Thinking", "Scott Page", or a problem in one of those domains.
 ---
 
 # Model Thinker Skill
 
-Multi-model thinking framework based on Scott Page's _The Model Thinker_. User describes a problem, skill recommends best-fitting model(s) and applies that model framework to analyze.
-
 ## Language Adaptation
 
-- **Auto-match**: detect user's input language, respond in same language
 - **Model names**: English user -> English name; non-English user -> user's language name (parenthesize English name)
-- **Reference**: `references/models.md` written in Chinese, reference only. All output in user's language
+- **Reference**: `references/models.md` is reference only. All output in user's language
 
 ## Core Workflow
 
 ### Step 1: Understand Problem
 
-Listen to user's problem. Clarify through questions:
+Clarify through questions:
 
 - Background and domain (business / social / technical / personal?)
 - Desired insight type (prediction / explanation / optimization / strategy?)
@@ -69,7 +67,7 @@ Explain model selection to user:
 
 ### Step 4: Apply Model Analysis
 
-Analyze step by step per model's framework. Output structure matches model's character (see each model's "Output Structure" in `references/models.md`).
+Analyze step by step per model's framework. Output structure matches model's character (see each model's "Output" in `references/models.md`).
 
 **Generic analysis framework** (adjust per model. Headers and content in user's language):
 
@@ -86,7 +84,7 @@ Analyze step by step per model's framework. Output structure matches model's cha
 {core findings revealed by model}
 
 ### Limitations
-{aspects this model doesn't cover}
+{aspects this model doesn't cover — model logic simplifies; reality is messier}
 ```
 
 ### Step 5: Synthesis & Recommendations
@@ -99,7 +97,7 @@ After model analysis, step back for broader view:
 - Risks and trade-offs: risks revealed by model + risks not covered
 - Alternatives: if model analysis inconclusive, suggest alternate paths
 
-Don't let model framework narrow the analysis. **Model is a lens; output stays comprehensive.**
+**Model is a lens; output stays comprehensive.**
 
 ### Step 6: Supplementary Perspective (Optional)
 
@@ -110,15 +108,7 @@ For complex problems, briefly add second model's perspective after primary analy
 {what different insights this model adds}
 ```
 
-## Output Format
-
-Always output structured Markdown with:
-
-1. Recommended model + reasoning
-2. Complete model analysis
-3. Key insights and action items
-
-If user follows up, continue deeper analysis or switch models.
+If the user follows up, continue deeper analysis or switch models.
 
 ## Example
 
@@ -148,10 +138,7 @@ Doesn't capture skill gaps or management failures.
 3. Reduce team size into smaller pods
 ```
 
-Use this structure for all analyses. Adjust headings per model's character.
-
 ## Important Reminders
 
-- **Use only listed models**. Stick to the 24 models in `references/models.md`. Don't invent models not in the book.
-- **Explain clearly**. Use plain language for model concepts. Don't assume user familiarity.
-- **Honest about limits**. Model analysis simplifies; reality is messier. Tell the user.
+- **Use only the 24 models** in `references/models.md`.
+- **Explain in plain language** — assume no prior model knowledge; define each concept before using it.

@@ -6,8 +6,6 @@
 
 ## 1. Normal Distributions
 
-**Alias**: 正态分布, Bell Curve
-
 **Use when**: Analyzing phenomena where values cluster around an average — heights, test scores, measurement errors. Identifying normal ranges and outliers.
 
 **Logic**:
@@ -23,8 +21,6 @@
 ---
 
 ## 2. Power-Law Distributions
-
-**Alias**: 幂律分布, Long Tails
 
 **Use when**: Analyzing extreme inequality — wealth, city sizes, web traffic, word frequency, 80/20 patterns.
 
@@ -42,8 +38,6 @@
 
 ## 3. Linear Models
 
-**Alias**: 线性模型
-
 **Use when**: Analyzing how multiple factors independently affect an outcome — salary determinants, housing prices, marketing ROI.
 
 **Logic**:
@@ -59,8 +53,6 @@
 ---
 
 ## 4. Concavity and Convexity
-
-**Alias**: 凹凸性
 
 **Use when**: Analyzing diminishing or increasing returns — investment returns, learning curves, economies of scale. Optimizing resource allocation.
 
@@ -79,8 +71,6 @@
 
 ## 5. Models of Value and Power
 
-**Alias**: 价值与权力模型
-
 **Use when**: Analyzing who holds power and how value is distributed — bargaining, supply chain power, political coalitions.
 
 **Logic**:
@@ -97,8 +87,6 @@
 
 ## 6. Network Models
 
-**Alias**: 网络模型
-
 **Use when**: Analyzing how relationship structure affects information flow, influence, and resilience — social networks, org charts, knowledge diffusion.
 
 **Logic**:
@@ -114,8 +102,6 @@
 ---
 
 ## 7. Broadcast, Diffusion, Contagion
-
-**Alias**: 广播、扩散与传染病模型
 
 **Use when**: Analyzing how information, behaviors, or diseases spread — marketing campaigns, rumors, epidemic modeling.
 
@@ -134,8 +120,6 @@
 
 ## 8. Entropy
 
-**Alias**: 熵
-
 **Use when**: Quantifying uncertainty and information content — classification purity, information gain, system disorder.
 
 **Logic**:
@@ -151,8 +135,6 @@
 ---
 
 ## 9. Random Walks
-
-**Alias**: 随机游走
 
 **Use when**: Analyzing sequences that appear patterned but may be random — stock prices, animal foraging, opinion shifts.
 
@@ -171,8 +153,6 @@
 
 ## 10. Path Dependence
 
-**Alias**: 路径依赖
-
 **Use when**: Analyzing how historical events lock in current states — tech standards (QWERTY), institutional evolution, career paths.
 
 **Logic**:
@@ -188,8 +168,6 @@
 ---
 
 ## 11. Local Interaction Models
-
-**Alias**: 局部互动模型
 
 **Use when**: Analyzing how local behavior produces macro patterns — residential segregation, cultural convergence, innovation diffusion.
 
@@ -207,8 +185,6 @@
 
 ## 12. Lyapunov Functions and Equilibria
 
-**Alias**: 李雅普诺夫函数与均衡
-
 **Use when**: Analyzing whether a system tends toward stable equilibrium — ecosystem balance, economic equilibrium, dynamic system stability.
 
 **Logic**:
@@ -224,8 +200,6 @@
 ---
 
 ## 13. Markov Models
-
-**Alias**: 马尔可夫模型
 
 **Use when**: Analyzing state transition probabilities and long-run distributions — user behavior sequences, weather patterns, browsing paths.
 
@@ -244,8 +218,6 @@
 
 ## 14. Systems Dynamics Models
 
-**Alias**: 系统动力学模型
-
 **Use when**: Analyzing complex systems with feedback loops and time delays — economic growth, supply chain oscillations, climate change.
 
 **Logic**:
@@ -261,8 +233,6 @@
 ---
 
 ## 15. Threshold Models with Feedbacks
-
-**Alias**: 阈值模型与反馈
 
 **Use when**: Analyzing tipping points in collective behavior — group action, financial panics, tech adoption, social movements.
 
@@ -281,8 +251,6 @@
 
 ## 16. Spatial and Hedonic Choice
 
-**Alias**: 空间与享乐选择
-
 **Use when**: Analyzing location or feature-based preferences — site selection, product positioning, voting strategy.
 
 **Logic**:
@@ -298,8 +266,6 @@
 ---
 
 ## 17. Game Theory Models
-
-**Alias**: 博弈论模型
 
 **Use when**: Analyzing strategic interactions — price competition, negotiations, arms races, auctions.
 
@@ -318,8 +284,6 @@
 
 ## 18. Models of Cooperation
 
-**Alias**: 合作模型
-
 **Use when**: Analyzing how cooperation emerges and persists — team collaboration, international agreements, open-source communities.
 
 **Logic**:
@@ -336,8 +300,6 @@
 ---
 
 ## 19. Collective Action Problems
-
-**Alias**: 集体行动问题
 
 **Use when**: Analyzing individual rationality leading to collective irrationality — free-riding, tragedy of commons, team contribution, environmental action.
 
@@ -356,8 +318,6 @@
 
 ## 20. Mechanism Design
 
-**Alias**: 机制设计
-
 **Use when**: Designing rules and institutions to achieve desired outcomes — auction design, school admissions, organ donation matching.
 
 **Logic**:
@@ -374,8 +334,6 @@
 ---
 
 ## 21. Signaling Models
-
-**Alias**: 信号传递模型
 
 **Use when**: Analyzing signaling under information asymmetry — education as ability signal, brand as quality signal, certifications.
 
@@ -394,8 +352,6 @@
 
 ## 22. Models of Learning
 
-**Alias**: 学习模型
-
 **Use when**: Analyzing how individuals and groups learn from experience — organizational learning, skill acquisition, belief updating.
 
 **Logic**:
@@ -413,8 +369,6 @@
 
 ## 23. Multi-Armed Bandit Problems
 
-**Alias**: 多臂老虎机问题
-
 **Use when**: Analyzing exploration-exploitation trade-offs under uncertainty — A/B testing, drug trials, recommendation systems.
 
 **Logic**:
@@ -431,8 +385,6 @@
 ---
 
 ## 24. Rugged-Landscape Models
-
-**Alias**: 崎岖景观模型
 
 **Use when**: Analyzing optimization complexity — product design, organizational change, strategic choice.
 

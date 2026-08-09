@@ -7,6 +7,7 @@
       "expected_output": "Model analysis recommending collective action model or power-law distribution, analyzing the free-rider problem and suggesting solutions",
       "files": [],
       "expectations": [
+        "Output is entirely in Chinese",
         "Recommends at least one relevant model from the book",
         "Explains why the model fits the problem",
         "Applies the model framework to analyze the situation step by step",
@@ -20,6 +21,7 @@
       "expected_output": "Model analysis recommending path dependence model, potentially with threshold model or rugged-landscape as supplementary perspective",
       "files": [],
       "expectations": [
+        "Output is entirely in Chinese",
         "Recommends at least one relevant model from the book",
         "Explains why the model fits the problem",
         "Applies the model framework to analyze the situation",
@@ -33,6 +35,7 @@
       "expected_output": "Model analysis recommending threshold models with feedbacks, analyzing tipping points and cascade effects",
       "files": [],
       "expectations": [
+        "Output is entirely in Chinese",
         "Recommends threshold model as the primary model",
         "Explains the tipping point concept (40% threshold observation)",
         "Applies the model to analyze the adoption dynamics",
@@ -64,6 +67,58 @@
         "Analyzes switching costs and lock-in effects",
         "Discusses potential strategies to overcome path dependence",
         "Mentions model limitations"
+      ]
+    },
+    {
+      "id": 6,
+      "prompt": "两个大平台在打价格战持续半年了，我是新入场的小公司。他们在想什么？我的最优策略是跟着降价还是找别的出路？想从策略互动的角度系统分析一下这个局面",
+      "expected_output": "Model analysis in Chinese, recommending game theory, analyzing the strategic interaction between the two platforms and the entrant's best strategy",
+      "files": [],
+      "expectations": [
+        "Output is entirely in Chinese",
+        "Recommends game theory as the primary model",
+        "Frames the situation as a game with players, strategies, and payoffs",
+        "Identifies equilibrium or competition dynamics",
+        "Provides strategic advice for the entrant company"
+      ]
+    },
+    {
+      "id": 7,
+      "prompt": "我们供应链的库存总是大起大落，忽高忽低，供应商那边也不稳定。客户天天抱怨交期不准。我想用系统性的方法分析这个波动的根源，不只是头疼医头",
+      "expected_output": "Model analysis in Chinese, recommending systems dynamics, analyzing feedback loops and time delays that cause inventory oscillation",
+      "files": [],
+      "expectations": [
+        "Output is entirely in Chinese",
+        "Recommends systems dynamics as the primary model",
+        "Identifies reinforcing and balancing feedback loops",
+        "Explains how time delays cause oscillation and overshoot",
+        "Suggests systemic interventions beyond symptom-fixing"
+      ]
+    },
+    {
+      "id": 8,
+      "prompt": "Our company's internal knowledge flows very slowly. The engineering team knows things the product team has no idea about, and information never reaches the right people. I want to systematically analyze where the information flow bottleneck is.",
+      "expected_output": "Model analysis in English, recommending network models, analyzing how the relationship structure blocks information flow",
+      "files": [],
+      "expectations": [
+        "Output is entirely in English",
+        "Recommends network models as the primary model",
+        "Describes the network structure and identifies key nodes or missing bridges",
+        "Locates where information flow breaks down",
+        "Suggests structural interventions to improve knowledge flow"
+      ]
+    },
+    {
+      "id": 9,
+      "prompt": "我们产品改一个模块就坏了另一个不相关的模块，修了这个 bug 引出那个 bug，感觉牵一发动全身。怎么系统性理解这个问题？有没有办法判断整个系统的复杂程度？",
+      "expected_output": "Model analysis in Chinese, recommending rugged-landscape (NK) model, analyzing component interdependence and system complexity",
+      "files": [],
+      "expectations": [
+        "Output is entirely in Chinese",
+        "Recommends rugged-landscape model as the primary model",
+        "Explains component interdependence (K) and its effect on optimization",
+        "Assesses how to gauge system complexity",
+        "Suggests an optimization strategy for a highly coupled system"
       ]
     }
   ]
