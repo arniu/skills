@@ -1,5 +1,30 @@
-# research/
+# 研究笔记
 
-Study material — skills from other repos, kept for learning, not house style.
+从源仓库下载 SKILL，存放在同名文件夹下。研究笔记 `NOTES.md` 与 `SKILL.md` 同目录存放。
 
-Each skill here comes from another repo. Keep its origin — source repo and license — in a `SOURCE.md` beside its `SKILL.md`.
+## 元数据
+
+用 YAML frontmatter 保存：
+
+- `repo`；
+- `path`；
+- `commit`；
+- `license`，只留许可证名；
+- `dependencies` 可选，用 `/name` 形式列出依赖技能，自足技能省略。
+
+## 如何撰写研究笔记
+
+研究笔记要回答关于这个技能的五个问题，一个问题一个段落，依次作答：
+
+- 是什么？
+- 怎么工作？
+- 关键机制是什么？
+- 为什么这样设计？
+- 有什么可借鉴之处？
+
+写作纪律：
+
+- 是什么、怎么工作、关键机制，每句话都要能回溯到源文件；为什么、可借鉴是分析，别把推断写成事实；
+- 保留原文术语，方便和源文件、整个生态对话；
+- 篇幅克制，每段一两句；
+- 专业、准确、地道。
