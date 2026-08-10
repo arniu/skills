@@ -7,7 +7,7 @@ skills/          public — promoted
 in-progress/     private — drafts
 research/        private — study material
 docs/            reference docs
-  skills-guide.md      authoring conventions
+  skills-guide.md      SKILL intro guide
   skills-philosophy.md writing methodology
 ```
 
@@ -17,7 +17,7 @@ Skills graduate from `in-progress/` to `skills/` when their evals pass.
 
 ## Skill format
 
-A skill is a directory with a `SKILL.md`: `name` + `description` frontmatter (the only trigger mechanism), body under 500 lines. See `docs/skills-guide.md` for the full conventions — authoring, evals, tuning.
+A skill is a directory with a `SKILL.md`: `name` + `description` frontmatter (the only trigger mechanism), body under 500 lines. See the `skill-creator` skill for the full authoring, evals, tuning workflow.
 
 ## Testing
 

@@ -689,7 +689,7 @@ standard library or existing dependencies.
 
 ### 7.2 写作流程检查点（验收性）
 
-一份 SKILL 从构思到发布，需要反复走过三个阶段：**决策 → 构建 → 修剪**。操作步骤留给了 [`docs/skills-guide.md`](./skills-guide.md)，这里只列出理念层的检查点。
+一份 SKILL 从构思到发布，需要反复走过三个阶段：**决策 → 构建 → 修剪**。操作步骤留给了 `skill-creator` 技能，这里只列出理念层的检查点。
 
 **启动前**
 
